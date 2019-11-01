@@ -10,16 +10,13 @@ package com._520.leetcode._11_1;
  */
 public class AddTwoNumbers {
 
+    // 结点类
     private static class ListNode{
-        private int number;
-        private ListNode nextNode;
+        private int number;             // 结点值
+        private ListNode nextNode;      // 指向下一个结点
 
         private ListNode(int number){
             this.number = number;
-        }
-
-        public void setNextNode(ListNode nextNode) {
-            this.nextNode = nextNode;
         }
 
         @Override
@@ -30,23 +27,30 @@ public class AddTwoNumbers {
                     '}';
         }
     }
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
+    /**
+     *  计算结点中数字的和
+     * @param l1            结点1
+     * @param l2            结点2
+     * @return              存放结果的结点
+     */
+    private static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode newNode = new ListNode(0);
         ListNode temp = newNode;
         ListNode left = l1;
         ListNode right = l2;
         int carry = 0;      // 进位
-        while (left != null || right != null){
+        while (left != null || right != null){      // 位数不同的计算
             int i = left.number;
             int j = right.number;
             int sum = i + j + carry;
             carry = sum / 10;
 
-            temp.setNextNode(new ListNode(sum % 10));
+            temp.nextNode = (new ListNode(sum % 10));
 
-            if (carry!= 0){
-                if (left.nextNode == null)  left.setNextNode(new ListNode(0));
-                if (right.nextNode == null) right.setNextNode(new ListNode(0));
+            if (carry!= 0 || left.nextNode != null || right.nextNode != null){ // 当前有进位
+                if (left.nextNode == null)  left.nextNode = (new ListNode(0));      // 创建一个新结点，赋值为0
+                if (right.nextNode == null) right.nextNode = (new ListNode(0));
             }
 
             left = left.nextNode;
