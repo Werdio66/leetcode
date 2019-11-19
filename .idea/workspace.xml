@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5c59fb9-e7fb-43bb-9926-3d0c6aef5c75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/_11_19/RemoveNthFromEnd1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/_11_19/RemoveNthFromEnd2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/_520/leetcode/_11_19/LetterCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/_520/leetcode/_11_19/LetterCombinations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +36,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_11_19/LetterCombinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="210">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_11_19/RemoveNthFromEnd2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_11_19/RemoveNthFromEnd1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -74,6 +93,9 @@
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_17/IntToRoman.java" />
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_18/ThreeNums.java" />
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_19/LetterCombinations.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_19/RemoveNthFromEnd.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_19/RemoveNthFromEnd2.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_19/RemoveNthFromEnd1.java" />
       </list>
     </option>
   </component>
@@ -174,6 +196,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com._520.leetcode._11_19" />
       <recent name="com._520.leetcode._11_17" />
       <recent name="com._520.leetcode._11_2" />
       <recent name="com._520.leetcode._11_3" />
@@ -191,20 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LetterCombinations">
-    <configuration name="FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._520.leetcode._11_2.FindMedianSortedArrays" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com._520.leetcode._11_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveNthFromEnd2">
     <configuration name="LetterCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com._520.leetcode._11_19.LetterCombinations" />
       <module name="leetcode" />
@@ -244,6 +254,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveNthFromEnd2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com._520.leetcode._11_19.RemoveNthFromEnd2" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com._520.leetcode._11_19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreeNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com._520.leetcode._11_18.ThreeNums" />
       <module name="leetcode" />
@@ -259,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveNthFromEnd2" />
         <item itemvalue="Application.LetterCombinations" />
         <item itemvalue="Application.ThreeNums" />
         <item itemvalue="Application.MaxArea2" />
         <item itemvalue="Application.MaxArea1" />
-        <item itemvalue="Application.FindMedianSortedArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +309,7 @@
       <workItem from="1573979255391" duration="2582000" />
       <workItem from="1574048639139" duration="4445000" />
       <workItem from="1574127028034" duration="4172000" />
-      <workItem from="1574144424513" duration="3226000" />
+      <workItem from="1574144424513" duration="7061000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1572588471327</created>
@@ -323,17 +346,23 @@
       <option name="project" value="LOCAL" />
       <updated>1574130851430</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改，">
+      <created>1574148566327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574148566327</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46853000" />
+    <option name="totallyTimeSpent" value="50688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.24865952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.24865952" />
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -342,7 +371,7 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08100559" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20670392" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37709498" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,7 +405,8 @@
     <MESSAGE value="maxArea" />
     <MESSAGE value="给定一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？找出所有满足条件且不重复的三元组。" />
     <MESSAGE value="leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+    <MESSAGE value="修改，" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改，" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,8 +553,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_11_19/LetterCombinations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="210">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_11_19/RemoveNthFromEnd2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_11_19/RemoveNthFromEnd1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
