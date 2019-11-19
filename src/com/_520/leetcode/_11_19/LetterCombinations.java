@@ -2,6 +2,7 @@ package com._520.leetcode._11_19;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -10,42 +11,42 @@ import java.util.List;
  */
 public class LetterCombinations {
 
+
+
     public List<String> letterCombinations(String digits) {
         List<String> strings = Arrays.asList("", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz");
-        List<String> zuhe = new ArrayList<>();
-        int len = digits.length();
+        List<String> combination = new ArrayList<>();
+        if (digits.length() == 0){
+            return combination;
+        }
+        combination.add("");
 
-        String[] str = new String[len];
         for (int i = 0; i < digits.length(); i++) {
+            // "123" 计算
             int index = digits.charAt(i) - '0';
-            str[i] = strings.get(index);
-            if (len == 1){
-                for (int j = 0; j < str[i].length(); j++) {
-                    zuhe.add(str[i].charAt(j) + "");
-                }
-                return zuhe;
+            // 取出复合第一个数字的字符串
+            String string = strings.get(index);
 
-            }
-        }
-        for (int k = 0; k < str.length; k++) {
-            for (int i = 0; i < str[k].length(); i++) {
-                if (k + 1 >= str.length)
-                    break;
-                for (int j = 0; j < str[k + 1].length(); j++) {
+            int size = combination.size();
+            for (int k = 0; k < size; k++) {
 
-//                    System.out.println(str[k].charAt(i) + "    " +str[k + 1].charAt(j));
-                    zuhe.add(str[k].charAt(i) + "" +str[k + 1].charAt(j));
+                // 每次取出第一个字符串
+                String temp = combination.remove(0);
+
+                for (int j = 0; j < string.length(); j++) {
+                    // 如果有后续的元素，加在第一个字符串后面
+                    combination.add(temp + string.charAt(j));
                 }
             }
         }
 
 
-        return zuhe;
+        return combination;
     }
 
     public static void main(String[] args) {
         LetterCombinations l = new LetterCombinations();
-        String digits = new String("234");
+        String digits = new String("");
         System.out.println(l.letterCombinations(digits));
     }
 }
