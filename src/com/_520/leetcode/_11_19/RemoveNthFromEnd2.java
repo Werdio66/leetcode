@@ -26,7 +26,7 @@ public class RemoveNthFromEnd2 {
         for (int i = 0; i < n; i++) {
             // 拉开n个单位距离
             first = first.next;
-            // 当只有一个结点时，返回null
+            // 删除第一个结点结点
             if (first == null)
                 return temp.next.next;
         }
