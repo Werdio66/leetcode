@@ -56,7 +56,7 @@ public class LongestPalindrome2 {
     }
 
     public static void main(String[] args) {
-        String str = "ac";
+        String str = "acbcbc";
         System.out.println(longestPalindrome(str));
     }
 }

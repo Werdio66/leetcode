@@ -24,9 +24,9 @@ public class LetterCombinations {
         for (int i = 0; i < digits.length(); i++) {
             // "123" 计算
             int index = digits.charAt(i) - '0';
-            // 取出复合第一个数字的字符串
+            // 取出符合第一个数字的字符串
             String string = strings.get(index);
-
+            // 为集合中每个字符串增加元素
             int size = combination.size();
             for (int k = 0; k < size; k++) {
 
