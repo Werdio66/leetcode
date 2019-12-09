@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5c59fb9-e7fb-43bb-9926-3d0c6aef5c75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/_12_8/FindInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/_12_8/Replace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/_12_8/ZigzagLevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/_12_8/mergeTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/demo/ArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/demo/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/demo/QueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/_520/leetcode/_12_8/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/_520/leetcode/_12_8/LevelOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +19,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_12_8/mergeTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
+            <state relative-caret-position="500">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/demo/QueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/demo/ArrayDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/demo/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100600">
+            <state relative-caret-position="613">
               <caret line="4099" column="26" selection-start-line="4099" selection-start-column="24" selection-end-line="4099" selection-end-column="26" />
               <folding>
                 <element signature="e#5155#5156#0" expanded="true" />
@@ -94,6 +127,10 @@
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/_12_8/Replace.java" />
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/_12_8/PrintList.java" />
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/_12_8/mergeTree.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/demo/QueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/demo/ArrayDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/demo/Fibonaqi.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/demo/Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -144,6 +181,13 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="_12_8" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -184,13 +228,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mergeTree">
-    <configuration name="FindInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._520.leetcode._12_8.FindInArray" />
+  <component name="RunManager" selected="Application.Fibonacci">
+    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com._520.leetcode.demo.ArrayDemo" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com._520.leetcode._12_8.*" />
+          <option name="PATTERN" value="com._520.leetcode.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +242,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._520.leetcode._12_8.LevelOrder" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com._520.leetcode.demo.Fibonacci" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com._520.leetcode._12_8.*" />
+          <option name="PATTERN" value="com._520.leetcode.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com._520.leetcode.demo.QueueDemo" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com._520.leetcode.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,19 +270,6 @@
     </configuration>
     <configuration name="Replace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com._520.leetcode._12_8.Replace" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com._520.leetcode._12_8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZigzagLevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._520.leetcode._12_8.ZigzagLevelOrder" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -252,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.ArrayDemo" />
+        <item itemvalue="Application.QueueDemo" />
         <item itemvalue="Application.mergeTree" />
         <item itemvalue="Application.Replace" />
-        <item itemvalue="Application.FindInArray" />
-        <item itemvalue="Application.LevelOrder" />
-        <item itemvalue="Application.ZigzagLevelOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +340,8 @@
       <workItem from="1575778104087" duration="7877000" />
       <workItem from="1575788017247" duration="5904000" />
       <workItem from="1575806728139" duration="7260000" />
-      <workItem from="1575866569814" duration="209000" />
+      <workItem from="1575866569814" duration="1066000" />
+      <workItem from="1575879717384" duration="2435000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1572588471327</created>
@@ -382,17 +427,24 @@
       <option name="project" value="LOCAL" />
       <updated>1575792191301</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit">
+      <created>1575866793253</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575866793253</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91683000" />
+    <option name="totallyTimeSpent" value="95184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.1816354" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.19571045" />
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -401,7 +453,7 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14385475" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25279328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4650838" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -735,13 +787,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_12_8/PrintList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_12_8/PrintList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_12_8/Replace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -763,9 +809,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_12_8/mergeTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="111" column="19" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
+          <folding>
+            <element signature="e#2807#2808#0" expanded="true" />
+            <element signature="e#2841#2842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="613">
           <caret line="4099" column="26" selection-start-line="4099" selection-start-column="24" selection-end-line="4099" selection-end-column="26" />
           <folding>
             <element signature="e#5155#5156#0" expanded="true" />
@@ -774,10 +838,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_12_8/mergeTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/demo/QueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="125">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/demo/ArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/demo/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
