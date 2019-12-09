@@ -45,6 +45,7 @@ public class LevelOrder {
         LinkedList<TreeNode> linkedList = new LinkedList<>();
         linkedList.add(root);
         int cen = 0;
+        int count = 1;
         while (!linkedList.isEmpty()){
             list.add(new ArrayList<>());
 
@@ -53,15 +54,26 @@ public class LevelOrder {
                 TreeNode t = linkedList.removeFirst();
                 list.get(cen).add(t.val);
 
-                if (t.left != null){
-                    linkedList.add(t.left);
+                if (count % 2 == 0){
+                    if (t.left != null){
+                        linkedList.add(t.left);
+                    }
+
+                    if (t.right != null){
+                        linkedList.add(t.right);
+                    }
+                }else {
+                    if (t.right != null){
+                        linkedList.add(t.right);
+                    }
+                    if (t.left != null){
+                        linkedList.add(t.left);
+                    }
                 }
 
-                if (t.right != null){
-                    linkedList.add(t.right);
-                }
             }
             cen++;
+            count++;
         }
         return list;
     }
