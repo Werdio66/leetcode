@@ -22,7 +22,7 @@ public class mergeTree {
 
             if (in[i] == pre[0]){
                 root.left = reConstructBinaryTree(Arrays.copyOfRange(pre, 1, i + 1),
-                        Arrays.copyOfRange(in, 0, i + 1));
+                        Arrays.copyOfRange(in, 0, i));
                 root.right = reConstructBinaryTree(Arrays.copyOfRange(pre, i + 1, pre.length),
                         Arrays.copyOfRange(in, i + 1, in.length));
             }
@@ -38,11 +38,22 @@ public class mergeTree {
             prevOrder(node.right);
         }
     }
+    private static void midOrder(TreeNode node){
+        if (node.left != null) {
+            prevOrder(node.left);
+        }
+        System.out.println(node.val);
+        if (node.right != null) {
+            prevOrder(node.right);
+        }
+    }
     public static void main(String[] args) {
         int[] pre = {1,2,4,7,3,5,6,8};
         int[] in = {4,7,2,1,5,3,8,6};
         TreeNode treeNode = reConstructBinaryTree(pre, in);
         prevOrder(treeNode);
+        System.out.println("----------------------");
+        midOrder(treeNode);
 
     }
 }

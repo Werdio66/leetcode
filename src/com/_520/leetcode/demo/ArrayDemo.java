@@ -1,5 +1,7 @@
 package com._520.leetcode.demo;
 
+import java.util.Arrays;
+
 /**
  *  把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
  * 输入一个非递减排序的数组的一个旋转，输出旋转数组的最小元素。
@@ -23,8 +25,32 @@ public class ArrayDemo {
         return array[index];
     }
 
+    public static void reOrderArray(int [] array) {
+
+        int jishu = 0;
+        int oushu = 0;
+        // 1,2,3,4,5,6,7,8,9
+        while (jishu < array.length && oushu < array.length){
+            while (jishu < array.length && array[jishu] % 2 != 0)
+                jishu++;
+            oushu = jishu;
+            while (oushu < array.length &&array[oushu] % 2 == 0)
+                oushu++;
+            swap(array,jishu,oushu);
+
+        }
+
+    }
+    private static void swap(int[] arr, int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
     public static void main(String[] args) {
         int[] arr = {3};
-        System.out.println(minNumberInRotateArray(arr));
+        int[] array = {1,2,3,4,5,6,7,8,9};
+        reOrderArray(array);
+        System.out.println(Arrays.toString(array));
+//        System.out.println(minNumberInRotateArray(arr));
     }
 }
