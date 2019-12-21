@@ -20,17 +20,17 @@ public class Demo3 {
         return max;
     }
     public static int maxProfit1(int[] prices) {
-        int minPoint = Integer.MAX_VALUE;
-        int maxPoint = 0;
+        int min = Integer.MAX_VALUE;
+        int max = 0;
 
         for (int i = 0; i < prices.length; i++) {
-            if (prices[i] < minPoint)
-                minPoint = prices[i];
-            if (prices[i] - minPoint > maxPoint)
-                maxPoint = prices[i] - minPoint;
+            if (prices[i] < min)
+                min = prices[i];
+            if (prices[i] - min > max)
+                max = prices[i] - min;
         }
 
-        return maxPoint;
+        return max;
     }
     public static void main(String[] args) {
         int[] arr = {1,7, 6, 4, 3, 1};
