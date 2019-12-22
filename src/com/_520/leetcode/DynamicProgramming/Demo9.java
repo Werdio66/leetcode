@@ -12,7 +12,7 @@ public class Demo9 {
         }
         for (int i = 1; i < grid.length; i++) {
             for (int j = 1; j < grid[0].length; j++) {
-                dp[i][j] = Math.min(grid[i][j - 1], grid[i - 1][j]) + dp[i - 1][j - 1] + grid[i][j];
+                dp[i][j] = Math.min(dp[i][j - 1], dp[i - 1][j]) + grid[i][j];
             }
         }
         return dp[grid.length - 1][grid[0].length - 1];
@@ -21,16 +21,20 @@ public class Demo9 {
     public int minPathSum1(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
-        int[] dp = new int[m + n];
+        int[] dp = new int[n];
         dp[0] = grid[0][0];
 
+        for (int i = 1; i < n; i++) {
+            dp[i] = dp[i - 1] + grid[0][i];
+        }
         for (int i = 1; i < m; i++) {
+            dp[0] = Math.min(dp[1], grid[i][0] + dp[0]);
             for (int j = 1; j < n; j++) {
-                dp[j] = Math.min(grid[i][j - 1], grid[i - 1][j]) + dp[j - 1] + grid[i][j];
+                dp[j] = grid[i][j] + dp[j - 1];
             }
         }
 
-        return dp[m + n - 1];
+        return dp[n - 1];
     }
     
     public int minPathSum2(int[][] grid){
@@ -54,7 +58,7 @@ public class Demo9 {
                 {4,2,5}
         };
         System.out.println(new Demo9().minPathSum(arr));
-//        System.out.println(new Demo9().minPathSum1(arr));
-        System.out.println(new Demo9().minPathSum2(arr));
+        System.out.println(new Demo9().minPathSum1(arr));
+//        System.out.println(new Demo9().minPathSum2(arr));
     }
 }
