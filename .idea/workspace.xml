@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5c59fb9-e7fb-43bb-9926-3d0c6aef5c75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/_520/leetcode/array/Demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo9.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,85 +21,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo4.java">
+        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/array/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="500">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo5.java">
+        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="75">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo6.java">
+        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="438">
+              <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1492#1493#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo9.java">
+        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo12.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -113,9 +72,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dp</find>
+      <find>arr</find>
     </findStrings>
     <replaceStrings>
       <replace>grid</replace>
+      <replace>nums</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -124,10 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_1/AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_3/LongestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_3/LongestPalindrome1.java" />
-        <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_2/FindMedianSortedArrays1.java" />
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_2/FindMedianSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_17.java" />
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/_11_17/_11_17.java" />
@@ -175,6 +132,10 @@
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo7.java" />
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo8.java" />
         <option value="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo9.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo10.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/array/Demo1.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo11.java" />
+        <option value="$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo12.java" />
       </list>
     </option>
   </component>
@@ -191,8 +152,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,9 +224,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo9">
-    <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._520.leetcode.DynamicProgramming.Demo4" />
+  <component name="RunManager" selected="Application.Demo11">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com._520.leetcode.array.Demo1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com._520.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com._520.leetcode.DynamicProgramming.Demo10" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -277,21 +251,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._520.leetcode.DynamicProgramming.Demo5" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com._520.leetcode.DynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com._520.leetcode.DynamicProgramming.Demo7" />
+    <configuration name="Demo11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com._520.leetcode.DynamicProgramming.Demo11" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -331,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo11" />
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.Demo10" />
         <item itemvalue="Application.Demo9" />
         <item itemvalue="Application.Demo8" />
-        <item itemvalue="Application.Demo7" />
-        <item itemvalue="Application.Demo5" />
-        <item itemvalue="Application.Demo4" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +350,11 @@
       <workItem from="1576477121922" duration="2037000" />
       <workItem from="1576482451346" duration="8498000" />
       <workItem from="1576927752037" duration="5006000" />
-      <workItem from="1577011270221" duration="3376000" />
+      <workItem from="1577011270221" duration="3443000" />
+      <workItem from="1577162217104" duration="317000" />
+      <workItem from="1577191881815" duration="318000" />
+      <workItem from="1577237918145" duration="3100000" />
+      <workItem from="1577431002313" duration="4236000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1572588471327</created>
@@ -517,17 +482,24 @@
       <option name="project" value="LOCAL" />
       <updated>1577013473502</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="commit">
+      <created>1577014662821</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1577014662821</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123837000" />
+    <option name="totallyTimeSpent" value="131875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.2546917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.2680965" />
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -536,7 +508,7 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22905028" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23882681" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42318437" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -601,44 +573,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="295" column="29" selection-start-line="295" selection-start-column="29" selection-end-line="295" selection-end-column="29" />
-          <folding>
-            <element signature="e#7486#7487#0" expanded="true" />
-            <element signature="e#7514#7515#0" expanded="true" />
-            <element signature="e#8488#8489#0" expanded="true" />
-            <element signature="e#8535#8536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="123" column="12" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
-          <folding>
-            <element signature="e#3886#3887#0" expanded="true" />
-            <element signature="e#3917#3918#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="84" column="30" lean-forward="true" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/_11_1/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
@@ -986,6 +920,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1007,17 +948,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo8.java">
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="300">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo9.java">
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/array/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+          <folding>
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/_520/leetcode/DynamicProgramming/Demo12.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
