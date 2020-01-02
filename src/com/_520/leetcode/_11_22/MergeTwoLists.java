@@ -24,6 +24,32 @@ public class MergeTwoLists {
         }
     }
 
+    public ListNode Merge(ListNode list1,ListNode list2) {
+
+        ListNode list = new ListNode(-1);
+        ListNode head = list;
+        while (list1 != null && list2 != null){
+            if (list1.val < list2.val){
+                list.next = list1;
+                list1 = list1.next;
+            }else {
+
+                list.next = list2;
+                list2 = list2.next;
+            }
+            list = list.next;
+        }
+
+        if (list1 != null){
+            list.next = list1;
+        }
+
+        if (list2 != null){
+            list.next = list2;
+        }
+
+        return head.next;
+    }
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(3);
@@ -32,7 +58,9 @@ public class MergeTwoLists {
         l2.next = new ListNode(4);
 
         MergeTwoLists m = new MergeTwoLists();
-        ListNode head = m.mergeTwoLists(l1, l2);
+//        ListNode head = m.mergeTwoLists(l1, l2);
+        ListNode head = m.Merge(l1, l2);
+
         while (head != null){
             System.out.println(head.val);
             head = head.next;
