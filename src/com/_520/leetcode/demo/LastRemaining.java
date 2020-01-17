@@ -19,7 +19,7 @@ public class LastRemaining {
 
             for (int i = 0; i < m; i++) {
 
-                if (count > list.size()){
+                if (count == list.size()){
                     count = 0;
                 }
 
